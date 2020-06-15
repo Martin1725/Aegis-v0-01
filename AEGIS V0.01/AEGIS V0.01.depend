@@ -1,11 +1,13 @@
 # depslib dependency file v1.0
-1592186000 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\main.cpp
+1592192825 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\main.cpp
 	<iostream>
 	<cstdlib>
 	<cstdio>
 	<cstring>
 	"rlutil.h"
 	"Menus.h"
+	"PrototiposGlobales.h"
+	"FuncionesGlobales.h"
 
 1592064901 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\rlutil.h
 	<iostream>
@@ -22,4 +24,55 @@
 	<sys/time.h>
 
 1592186000 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\menus.h
+
+1592196636 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\clientes.cpp
+	<iostream>
+	"Clientes.h"
+
+1592196565 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\clientes.h
+	"Persona.h"
+
+1592194925 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\persona.h
+	<cstring>
+
+1592196772 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\prototiposglobales.h
+
+1592196772 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\funcionesglobales.h
+	"PrototiposGlobales.h"
+
+1592196056 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\persona.cpp
+	<iostream>
+	<cstring>
+	"FuncionesGlobales.h"
+	"Persona.h"
+
+1592186000 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\proveedor.cpp
+	<iostream>
+	"Proveedor.h"
+
+1592196772 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\proveedor.h
+	"Persona.h"
+
+1592186000 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\vendedor.cpp
+	<iostream>
+	"Vendedor.h"
+
+1592196772 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\vendedor.h
+	"Persona.h"
+
+1592197286 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\producto.cpp
+	<iostream>
+	<cstring>
+	"Producto.h"
+
+1592197286 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\producto.h
+	<cstring>
+
+1592186000 source:c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\ventas.cpp
+	<iostream>
+	"Ventas.h"
+
+1592197318 c:\users\cristian\documents\github\aegis-v0-01\aegis v0.01\ventas.h
+	"PrototiposGlobales.h"
+	"Producto.h"
 

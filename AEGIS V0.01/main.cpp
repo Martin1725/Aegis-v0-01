@@ -6,6 +6,9 @@ using namespace std;
 #include "rlutil.h"
 using namespace rlutil;
 #include "Menus.h"
+#include "PrototiposGlobales.h"
+#include "FuncionesGlobales.h"
+
 
 int main()
 {

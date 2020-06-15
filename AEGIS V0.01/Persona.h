@@ -44,7 +44,7 @@ public:
     {
         return nTelefono;
     }
-    const char *getEmail()
+    const char * getEmail()
     {
         return Mail;
     }
@@ -82,7 +82,7 @@ public:
     }
     void setEstado(bool nuevoestado )
     {
-        Estado=nuevoestado
+        Estado=nuevoestado;
     };
 };
 

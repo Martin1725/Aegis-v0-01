@@ -1,29 +1,30 @@
 #ifndef PRODUCTO_H_INCLUDED
 #define PRODUCTO_H_INCLUDED
 #pragma once
+#include <cstring>
 class Producto
 {
 private:
-    char [10] Codigoproducto;
-    char [10] Codigoproveedor;
-    char [30] NombreItem;
+    char  CodigoProducto[10];
+    char  CodigoProveedor[10];
+    char  NombreItem[30];
     float CostodeCompra;
     float PorcentajeRentabilidad;
     float PreciodeVenta;
-    int stockmin;
-    int stockactual;
+    int StockMin;
+    int StockActual;
     bool Estado;
 public:
     //metodos;
     void cargar();
     void mostrar();
-    const char * getCodigoproducto()
+    const char * getCodigoProducto()
     {
-        return Codigoproducto;
+        return CodigoProducto;
     }
-    const char * getCodigoproveedor()
+    const char * getCodigoProveedor()
     {
-        return Codigoproveedor;
+        return CodigoProveedor;
     }
     const char * getNombreItem()
     {
@@ -31,29 +32,29 @@ public:
     }
     float getCostodeCompra()
     {
-        return CostodeCompra
+        return CostodeCompra;
     }
     float getPorcentajeRentabilidad()
     {
-        return PorcentajeRentabilidad
+        return PorcentajeRentabilidad;
     }
     float getPrecioVenta()
     {
-        return PreciodeVenta
+        return PreciodeVenta;
     }
-    int getstockmin()
+    int getStockMin()
     {
-        return stockmin
+        return StockMin;
     }
-    int getstockactual()
+    int getStockActual()
     {
-        return stockactual
+        return StockActual;
     }
     void setCodigoproducto(char *cod)
     {
-        strcpy(Codigoproducto,cod);
+        strcpy(CodigoProducto,cod);
     }
-    void setCodigoproveedor(char *cpro)
+    void setCodigoProveedor(char *cpro)
     {
         strcpy(CodigoProveedor,cpro);
     }
@@ -65,7 +66,7 @@ public:
     {
         CostodeCompra=costo;
     }
-    void setPorcentajeRentabilidad(float porcetaje)
+    void setPorcentajeRentabilidad(float porcentaje)
     {
         PorcentajeRentabilidad=porcentaje;
     }
@@ -73,13 +74,13 @@ public:
     {
         PreciodeVenta=venta;
     }
-    void setstockmin(int stockm)
+    void setStockMin(int stockm)
     {
-        stockmin=stockm;
+        StockMin=stockm;
     }
-    void setstockactual(int stocka)
+    void setStockActual(int stocka)
     {
-        stockactual=stocka;
+        StockActual=stocka;
     }
 
 };

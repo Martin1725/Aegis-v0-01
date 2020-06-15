@@ -12,7 +12,7 @@ protected:
 public:
     //metodos;
     void cargar();
-    void mostrar():
+    void mostrar();
     };
 
 

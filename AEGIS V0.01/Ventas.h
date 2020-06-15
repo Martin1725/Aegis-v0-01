@@ -13,7 +13,7 @@ private:
     Producto item;
     int legajoVendedor;
     int idCliente;
-    char[10] CodigoProducto;
+    char CodigoProducto[10];
     int cant;
     int TipodeEntrega;
     int PorcentajeDesc;
@@ -22,7 +22,7 @@ private:
 public:
 
     void cargar();
-    void mostrar():
+    void mostrar();
 
     };
 

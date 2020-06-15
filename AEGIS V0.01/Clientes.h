@@ -2,23 +2,26 @@
 #define CLIENTES_H_INCLUDED
 #pragma once
 #include "Persona.h"
-class Cliente:public :Persona{
-    public:
+class Cliente:public Persona
+{
+public:
 
-    void cargar();
-    void mostrar():
-    int GetidCliente();
-    int GetTipoPago();
-    int GetTipoFactura();
-    float GetDeuda();
+        void cargar();
+        void mostrar();
+            int GetidCliente();
+            int GetTipoPago();
+            int GetTipoFactura();
+            float GetDeuda();
 
     protected:
-    int idCliente;
-    int TipodePago;
-    int PrefFactura;
-    float deuda;
+
+        int idCliente;
+        int TipodePago;
+        int PrefFactura;
+        float deuda;
 
 
-    };
+
+};
 
 #endif // CLIENTES_H_INCLUDED
