@@ -1,5 +1,8 @@
 #ifndef VENTAS_H_INCLUDED
 #define VENTAS_H_INCLUDED
+#pragma once
+#include "PrototiposGlobales.h"
+#include "Producto.h"
 class Venta
 {
 private:
@@ -17,7 +20,7 @@ private:
     float ImporteTotal;
     float ImporteUnidad;
 public:
-    //metodos;
+
     void cargar();
     void mostrar():
 

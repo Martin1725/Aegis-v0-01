@@ -1,95 +1,89 @@
 #ifndef PERSONA_H_INCLUDED
 #define PERSONA_H_INCLUDED
+#pragma once
+#include <cstring>
 class Persona
 {
 protected:
-    char nombre[20];
-    char apellido[20];
-    int dia, mes, anio;
-    char documento[10];
-    char mail[50];
+    char Nombre[20];
+    char Apellido[20];
+    int Dia, Mes, Anio;
+    char Documento[10];
+    char Mail[50];
     bool Estado;
+    char Ndoc[8];
+    char nTelefono[10];
 public:
     void Cargar();
     void Mostrar();
     const char * getNdoc()
     {
-        return ndoc;
+        return Ndoc;
     }
     const char * getNombre()
     {
-        return nombre;
+        return Nombre;
     }
     const char * getApellido()
     {
-        return apellido;
+        return Apellido;
     }
     int getDia()
     {
-        return dia;
+        return Dia;
     }
     int getMes()
     {
-        return mes;
+        return Mes;
     }
     int getAnio()
     {
-        return anio;
-    }
-    const char *getDomicilio()
-    {
-        return domicilio;
+        return Anio;
     }
     const char * getTelefono()
     {
-        return telefono;
+        return nTelefono;
     }
     const char *getEmail()
     {
-        return email;
+        return Mail;
     }
     void setNdoc(char *n)
     {
-        strcpy(ndoc,n);
+        strcpy(Ndoc,n);
     }
     void setNombre(char *n)
     {
-        strcpy(nombre,n);
+        strcpy(Nombre,n);
     }
     void setApellido(char *a)
     {
-        strcpy(apellido,a);
+        strcpy(Apellido,a);
     }
     void setDia(int d)
     {
-        dia=d;
+        Dia=d;
     }
     void setMes(int m)
     {
-        mes=m;
+        Mes=m;
     }
     void setAnio(int a)
     {
-        anio=a;
-    }
-    void setDomicilio(cahr * d)
-    {
-        strcpy(domicilio,d);
+        Anio=a;
     }
     void setTelefono(char *tel)
     {
-        strcpy(telefono,tel);
+        strcpy(nTelefono,tel);
     }
     void setEmail(char *e)
     {
-        strcpy(email,e);
+        strcpy(Mail,e);
     }
     void setEstado(bool nuevoestado )
     {
-        estado=nuevoestado
+        Estado=nuevoestado
     };
-}
-
 };
 
 #endif // PERSONA_H_INCLUDED

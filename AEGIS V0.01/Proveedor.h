@@ -1,5 +1,7 @@
 #ifndef PROVEEDOR_H_INCLUDED
 #define PROVEEDOR_H_INCLUDED
+#pragma once
+#include "Persona.h"
 class Proveedor:public Persona
 {
 protected:
@@ -11,7 +13,7 @@ public:
     //metodos;
     void cargar();
     void mostrar():
-    };///putoelquelee
+    };
 
 
 

@@ -5,7 +5,7 @@ using namespace std;
 #include <cstring>
 #include "rlutil.h"
 using namespace rlutil;
-#include "submenues.h"
+#include "Menus.h"
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     {
         system("cls");
         cout<<"                     *********                         "<<endl;
-        cout<<"                     *  AEGIS  tomi gato *                         "<<endl;
+        cout<<"                      *AEGIS*                          "<<endl;
         cout<<"                     *********                         "<<endl;
         cout<<"-->Presione la tecla enter para ingresar al menu de opciones                         "<<endl;
         cin.get();

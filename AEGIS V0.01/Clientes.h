@@ -1,16 +1,24 @@
 #ifndef CLIENTES_H_INCLUDED
 #define CLIENTES_H_INCLUDED
+#pragma once
+#include "Persona.h"
 class Cliente:public :Persona{
-protected:
+    public:
+
+    void cargar();
+    void mostrar():
+    int GetidCliente();
+    int GetTipoPago();
+    int GetTipoFactura();
+    float GetDeuda();
+
+    protected:
     int idCliente;
     int TipodePago;
     int PrefFactura;
     float deuda;
 
-public:
-    //metodos;
-    void cargar();
-    void mostrar():
+
     };
 
 #endif // CLIENTES_H_INCLUDED

@@ -1,6 +1,7 @@
 #ifndef VENDEDOR_H_INCLUDED
 #define VENDEDOR_H_INCLUDED
-
+#pragma once
+#include "Persona.h"
 class Vendedor:public Persona
 {
 protected:

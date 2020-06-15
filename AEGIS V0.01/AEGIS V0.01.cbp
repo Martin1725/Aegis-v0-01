@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/AEGIS V0.01" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/AEGIS V0" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/AEGIS V0.01" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/AEGIS V0" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,11 +34,13 @@
 		</Compiler>
 		<Unit filename="Clientes.cpp" />
 		<Unit filename="Clientes.h" />
+		<Unit filename="FuncionesGlobales.h" />
 		<Unit filename="Menus.h" />
 		<Unit filename="Persona.cpp" />
 		<Unit filename="Persona.h" />
 		<Unit filename="Producto.cpp" />
 		<Unit filename="Producto.h" />
+		<Unit filename="PrototiposGlobales.h" />
 		<Unit filename="Proveedor.cpp" />
 		<Unit filename="Proveedor.h" />
 		<Unit filename="Vendedor.cpp" />
