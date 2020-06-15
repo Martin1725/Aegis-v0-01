@@ -1,8 +1,8 @@
 #ifndef VENTAS_H_INCLUDED
 #define VENTAS_H_INCLUDED
 #pragma once
-#include "PrototiposGlobales.h"
 #include "Producto.h"
+#include "PrototiposGlobales.h"
 class Venta
 {
 private:

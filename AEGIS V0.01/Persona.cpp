@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-#include "FuncionesGlobales.h"
+#include "PrototiposGlobales.h"
+
 #include "Persona.h"
 
 void Persona::Cargar()
