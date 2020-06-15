@@ -1,8 +1,21 @@
 #ifndef MENUS_H_INCLUDED
 #define MENUS_H_INCLUDED
 #pragma once
+
+///Prototipos de los Menus.
+
+
+void menuVentas();
+void menuPrincipal();
+void menuABM();
+void abmClientes();
+
+
+
+///Menus Completos
 void menuPrincipal()
-        {       setColor(WHITE);
+{
+           setColor(WHITE);
         cout<<"                           MENU PRINCIPAL"          <<endl;
         cout<<"                  _________________________________"<<endl;
         cout<<"                 |-1-->VENTAS                     -|"<<endl;
@@ -84,7 +97,6 @@ void menuVentas()
 
     }
 }
-
 void menuABM()
 {
          int op;

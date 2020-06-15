@@ -65,7 +65,7 @@ int main()
         break;
         case 0:
         {
-            cout<<"     SESION FINALIZADA"<<endl;
+            cout<<"  SESION FINALIZADA."<<endl;
 
 
         }
